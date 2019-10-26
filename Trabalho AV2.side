@@ -1,0 +1,241 @@
+{
+  "id": "045ed0f4-aa14-4f80-9727-b7d080606253",
+  "version": "2.0",
+  "name": "Trabalho AV2",
+  "url": "https://cliente.americanas.com.br/simple-login/cadastro/pf",
+  "tests": [{
+    "id": "ab5e27c3-ef25-4983-8a5c-e6d491fea8e0",
+    "name": "Teste formulário lojas americanas ",
+    "commands": [{
+      "id": "6f0d6c72-6377-4513-910b-561ec4a60e03",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-input",
+      "targets": [
+        ["id=email-input", "id"],
+        ["name=email", "name"],
+        ["css=#email-input", "css:finder"],
+        ["xpath=//input[@id='email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf8faa8b-6a83-4d45-b830-78ef01f6c23f",
+      "comment": "algo",
+      "command": "open",
+      "target": "https://cliente.americanas.com.br/simple-login/cadastro/pf",
+      "targets": [],
+      "value": "30"
+    }, {
+      "id": "19d001dc-9801-4228-8af7-26ba12d8f975",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "625x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee113a93-7fdc-4fc6-9c9c-b94efff89ea3",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-input",
+      "targets": [
+        ["id=email-input", "id"],
+        ["name=email", "name"],
+        ["css=#email-input", "css:finder"],
+        ["xpath=//input[@id='email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "007bd983-b12e-4470-860b-3962a7455568",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-input",
+      "targets": [
+        ["id=email-input", "id"],
+        ["name=email", "name"],
+        ["css=#email-input", "css:finder"],
+        ["xpath=//input[@id='email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='email']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "carla.maria@unigranrio.br"
+    }, {
+      "id": "5386bdf1-f8fb-42c1-94ba-bdea540f68a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e16327d7-af32-41fa-90b1-006204679ece",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "cc108670"
+    }, {
+      "id": "51ad17fb-0b38-4e0f-9547-8d7bec810fc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=cpf-input",
+      "targets": [
+        ["id=cpf-input", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf-input", "css:finder"],
+        ["xpath=//input[@id='cpf-input']", "xpath:attributes"],
+        ["xpath=//div[@id='cpf']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb5f9828-7118-43c0-aa1e-0b72006d5765",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf-input",
+      "targets": [
+        ["id=cpf-input", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf-input", "css:finder"],
+        ["xpath=//input[@id='cpf-input']", "xpath:attributes"],
+        ["xpath=//div[@id='cpf']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "121.712.027-00"
+    }, {
+      "id": "5407cd8f-fb16-4b27-a64b-484790fceb9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=name-input",
+      "targets": [
+        ["id=name-input", "id"],
+        ["name=name", "name"],
+        ["css=#name-input", "css:finder"],
+        ["xpath=//input[@id='name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df696978-e571-4268-b711-0ed5e194e754",
+      "comment": "",
+      "command": "type",
+      "target": "id=name-input",
+      "targets": [
+        ["id=name-input", "id"],
+        ["name=name", "name"],
+        ["css=#name-input", "css:finder"],
+        ["xpath=//input[@id='name-input']", "xpath:attributes"],
+        ["xpath=//div[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "carla maria"
+    }, {
+      "id": "51ddba58-bb71-495c-ba67-539ab000d238",
+      "comment": "",
+      "command": "click",
+      "target": "id=birthday-input",
+      "targets": [
+        ["id=birthday-input", "id"],
+        ["name=birthday", "name"],
+        ["css=#birthday-input", "css:finder"],
+        ["xpath=//input[@id='birthday-input']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c1d6026-524e-47f5-b343-94d6d80811e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=birthday-input",
+      "targets": [
+        ["id=birthday-input", "id"],
+        ["name=birthday", "name"],
+        ["css=#birthday-input", "css:finder"],
+        ["xpath=//input[@id='birthday-input']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "30/08/1997"
+    }, {
+      "id": "10042d99-d294-4a66-b97b-f3da00dbe00e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(3) > label",
+      "targets": [
+        ["css=.radio:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='gender']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24fdd0b-7cb2-4675-bd0d-6f113600d77f",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-input",
+      "targets": [
+        ["id=phone-input", "id"],
+        ["name=phone", "name"],
+        ["css=#phone-input", "css:finder"],
+        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
+        ["xpath=//div[@id='phone']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "440630ad-eb5a-4ec1-84db-0a3a3e1cb2ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-input",
+      "targets": [
+        ["id=phone-input", "id"],
+        ["name=phone", "name"],
+        ["css=#phone-input", "css:finder"],
+        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
+        ["xpath=//div[@id='phone']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "(21) 99901-9316"
+    }, {
+      "id": "75aee24a-73cd-4ff7-9104-b0db18120494",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//div[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "e-mail"
+    }]
+  }],
+  "suites": [{
+    "id": "ccd978a6-3d35-4c91-b40f-4918008f360c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab5e27c3-ef25-4983-8a5c-e6d491fea8e0"]
+  }],
+  "urls": ["https://docs.google.com/forms/d/e/1FAIpQLSc2Yb39U187ar9SUBXh6Rr_4R7d430CIjcdKB0FaHRZjhLi9w/viewform", "https://cliente.americanas.com.br/simple-login/cadastro/pf"],
+  "plugins": []
+}
